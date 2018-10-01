@@ -1,56 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Афродита</title>
     <link rel="stylesheet"  href="./main.css">
 
 </head>
 <body>
+<div class="container">
+<header class="header">
+
+    <div class="header__logo">
+        <b class="logo_link">Афродита</b>
+    </div>
+
+    <nav class="menu">
+        <div class="menu__part1">
+            <a href="" class="menu__link">Главная</a>
+        </div>
+        <div class="menu__part2">
+            <a href="" class="menu__link">Отзывы</a>
+        </div>
+        <div class="menu__part3">
+            <a href="" class="menu__link">Услуги</a>
+        </div>
+    </nav>
+
+    <div class="header__contact">
+        <a href="tel.8(800)00-392-10" class="contacts__phone">8 (800) 00-392-10</a>
+        <button class="header__schedule">График работы</button>
+    </div>
+
+
+
+</header>
 <div class="main">
-    <header class="header">
-
-        <div class="logo">
-            <a href="" class="logo_link">Афродита</a>
-        </div>
-
-        <div class="nav__btn">
-            <img src="./img/main_icon.png" alt="" class="menu__pic1">
-            <div class="menu__part">
-                <a href="" class="menu__link">Главная</a>
-            </div>
-            <img src="./img/feed_icon.png" alt="" class="menu__pic2">
-            <div class="menu__part">
-                <a href="" class="menu__link">Отзывы</a>
-            </div>
-            <img src="./img/service_icon.png" alt="" class="menu__pic3">
-            <div class="menu__part">
-                <a href="" class="menu__link">Услуги</a>
-            </div>
-        </div>
-
-        <div class="contacts">
-            <a href="tel.8(800)00-392-10" class="contacts__phone">8(800)00-392-10</a>
-            <div class="schedule">График работы</div>
-        </div>
-
-
-
-    </header>
     <div class="partone">
         <div class="partone__image">
             <img src="./img/Banner.png" alt="" class="partone__image__banner">
         </div>
     </div>
-    <div class="parttwo">
+    <section class="parttwo">
 
         <h1 class="parttwo__caption">Особенности</h1>
-        <div class="mini__block">
-            <div class="pic">
-                <img src="./img/flower.png" alt="">
-
+        <div class="parttwo__mini-block">
+            <div class="parttwo__mini-block__pic1">
+            </div>
                 <h2 class="parttwo__h2__text">Уникальность</h2>
                 <p class="parttwo__p__text"> Мы делаем все для вашего комфорта</p>
                 <ul>
@@ -58,11 +55,10 @@
                     <li>Багаж(5кг)</li>
                     <li> Душ/Баня</li>
                 </ul>
-            </div>
         </div>
-        <div class="mini__block">
-            <div class="pic">
-                <img src="./img/star.png" alt="">
+        <div class="parttwo__mini-block">
+            <div class="parttwo__mini-block__pic2">
+
             </div>
             <h2 class="parttwo__h2__text">Приемиум-Класс</h2>
             <p class="parttwo__p__text"> Наш зал оборудован тренажорами А-класса</p>
@@ -72,9 +68,8 @@
                 <li>Результат</li>
             </ul>
         </div>
-        <div class="mini__block">
-            <div class="pic">
-                <img src="./img/kraski.png" alt="">
+        <div class="parttwo__mini-block">
+            <div class="parttwo__mini-block__pic3">
             </div>
             <h2 class="parttwo__h2__text">Личный тренер </h2>
             <p class="parttwo__p__text">Тренер сделает все для вашего результата</p>
@@ -84,55 +79,54 @@
                 <li>План тренировок</li>
             </ul>
         </div>
-    </div>
-    <div class="partthree">
+    </section>
+    <section class="partthree">
         <h2 class="partthree__h2__text">Последние новости</h2>
         <aside>
-            <p class="aside__text">Топ новостей за сентябрь</p>
-            <img src="./img/Slice_13.png" alt="">
-            <img src="./img/Slice_14.png" alt="">
-            <img src="./img/Slice_15.png" alt="">
+            <h3 class="aside__text">Топ новостей за сентябрь</h3>
+            <img class="aside__img" src="./img/Slice_13.png" alt="man">
+            <img class="aside__img" src="./img/Slice_14.png" alt="food">
+            <img class="aside__img" src="./img/Slice_15.png" alt="sport">
 
         </aside>
-        <div class="container">
-            <div class="avatar">
+        <div class="partthree__container">
+            <div class="partthree__avatar">
                 <img src="./img/news1.png" alt="">
             </div>
-            <div class="desc">
-                <div class="date">12.10.2016</div>
-                <h3 class="name">Похудение с помощью бодибилдинга!</h3>
-                <p class="text">Вдыхание одного литра кислорода эквивалентно "сжиганию" 5 калорий,однако в минуту при самом высоком темпе движений атлет способен вдохнуть не более 3-4 литров кислорода. Это крайне важно для каждого начинающего атлета.</p>
+            <div class="partthree__desc">
+                <div class="partthree__desc__date">12.10.2016</div>
+                <h3 class="partthree__desc__name">Похудение с помощью бодибилдинга!</h3>
+                <p class="partthree__desc__text">Вдыхание одного литра кислорода эквивалентно "сжиганию" 5 калорий,однако в минуту при самом высоком темпе движений атлет способен вдохнуть не более 3-4 литров кислорода. Это крайне важно для каждого начинающего атлета.</p>
             </div>
         </div>
-        <div class="container">
-            <div class="avatar">
+        <div class="partthree__container">
+            <div class="partthree__avatar">
                 <img src="./img/news2.png" alt="">
             </div>
-            <div class="desc">
-                <div class="date">01.02.2016</div>
-                <h3 class="name">Заряжай друзей,получай призы!</h3>
-                <p class="text"> Дополнительно для Вас: пользование сауной и предоставление средств личной гигиены, пользование баром, таблица замеров, дружеская атмосфера и постоянная поддержка. Мы запотимся о вашем комфорте и предлагаем испытать это уже сегодня!
+            <div class="partthree__desc">
+                <div class="partthree__desc__date">01.02.2016</div>
+                <h3 class="partthree__desc__name">Заряжай друзей,получай призы!</h3>
+                <p class="partthree__desc__text"> Дополнительно для Вас: пользование сауной и предоставление средств личной гигиены, пользование баром, таблица замеров, дружеская атмосфера и постоянная поддержка. Мы запотимся о вашем комфорте и предлагаем испытать это уже сегодня!
                 </p>
 
             </div>
 
         </div>
-        <div class="container">
-            <div class="avatar">
+        <div class="partthree__container">
+            <div class="partthree__avatar">
                 <img src="./img/news3.png" alt="">
             </div>
-            <div class="desc">
-                <div class="date">22.12.2015</div>
-                <h3 class="name">Фрилансер?выпрями спину!</h3>
-                <p class="text">Создайте рабочее место под себя. Вот этот инструмент поможет определить, что подходит именно вам и вашему организму. Используйте специальную подставку для ноутбука, если вы проводите за ним больше 2 часов. Настройте высоту и яркость монитора!
+            <div class="partthree__desc">
+                <div class="partthree__desc__date">22.12.2015</div>
+                <h3 class="partthree__desc__name">Фрилансер?выпрями спину!</h3>
+                <p class="partthree__desc__text">Создайте рабочее место под себя. Вот этот инструмент поможет определить, что подходит именно вам и вашему организму. Используйте специальную подставку для ноутбука, если вы проводите за ним больше 2 часов. Настройте высоту и яркость монитора!
                 </p>
 
             </div>
 
         </div>
 
-    </div>
-
+    </section>
     <div class="page__pagination">
 
         <!--<div class="page__pagination__display">Страница 1 из 7</div>-->
@@ -161,34 +155,29 @@
             </ul>
         </div>
     </div>
-
-    <footer>
-        <div>
-            <div class="footer__block">
-                <p>Сделано с любовью и старанием </p>
-                <p>на курсе «HTML + CSS» в LoftSchool</p>
-                <p>Автор работы:</p>
-            </div>
-
-            <div class="footer__block">
-                <a href="" class="logo__footer">Афродита</a>
-            </div>
-
-            <div class="footer__block">
-                <h3 class="socety__about">Наши социальные сети</h3>
-            </div>
-            <div class="img__soc__block">
-                <img src="./img/vk.png" alt="">
-                <img src="./img/fb.png" alt="">
-                <img src="./img/g+.png" alt="">
-                <img src="./img/tw.png" alt="">
-                <img src="./img/mail.png" alt="">
-            </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="footer__block">
+            <p>Сделано с любовью и старанием </p>
+            <p>на курсе «HTML + CSS» в LoftSchool</p>
+            <p>Автор работы:</p>
         </div>
-    </footer>
 
+        <div class="footer__block">
+            <a href="" class="logo__footer">Афродита</a>
+        </div>
 
-
+        <div class="footer__block">
+            <h3 class="socety__about">Наши социальные сети</h3>
+            <img src="./img/vk.png" alt="">
+            <img src="./img/fb.png" alt="">
+            <img src="./img/g+.png" alt="">
+            <img src="./img/tw.png" alt="">
+            <img src="./img/mail.png" alt="">
+        </div>
+    </div>
+</footer>
 </div>
 </body>
 </html>
