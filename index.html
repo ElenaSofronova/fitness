@@ -4,191 +4,146 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Афродита</title>
+    <title>Главная</title>
     <link rel="stylesheet"  href="./main.css">
+    <link rel="stylesheet" href="./normalize.css">
+
 
 </head>
 <body>
-<div class="container">
+<div class="wrapper">
 <header class="header">
-
-    <div class="header__logo">
-        <b class="logo_link">Афродита</b>
+    <div class="container">
+        <div class="header__logo">Афродита</div>
+        <nav class="header__menu">
+            <ul class="header__menu__top">
+                <li class="header__menu__top1"><a href="" > Главная</a> </li>
+                <li class="header__menu__top2"><a href="" >Отзывы</a></li>
+                <li class="header__menu__top3"><a href="">Услуги</a> </li>
+            </ul>
+        </nav>
+        <div class="header__contact">
+            <a href="tel.8(800)00-392-10" class="contacts__phone">8 (800) 00-392-10</a>
+            <div class="header__schedule">График работы</div>
+        </div>
     </div>
-
-    <nav class="menu">
-        <div class="menu__part1">
-            <a href="" class="menu__link">Главная</a>
-        </div>
-        <div class="menu__part2">
-            <a href="" class="menu__link">Отзывы</a>
-        </div>
-        <div class="menu__part3">
-            <a href="" class="menu__link">Услуги</a>
-        </div>
-    </nav>
-
-    <div class="header__contact">
-        <a href="tel.8(800)00-392-10" class="contacts__phone">8 (800) 00-392-10</a>
-        <button class="header__schedule">График работы</button>
-    </div>
-
-
-
 </header>
 <div class="main">
     <div class="partone">
-        <div class="partone__image">
-            <img src="./img/Banner.png" alt="" class="partone__image__banner">
+        <div class="banner">
+            <img src="./img/Banner.png" alt="баннер">
         </div>
     </div>
     <section class="parttwo">
-
-        <h1 class="parttwo__caption">Особенности</h1>
-        <div class="parttwo__mini-block">
-            <div class="parttwo__mini-block__pic1">
-            </div>
-                <h2 class="parttwo__h2__text">Уникальность</h2>
-                <p class="parttwo__p__text"> Мы делаем все для вашего комфорта</p>
-                <ul>
-                    <li>Питание включено</li>
-                    <li>Багаж(5кг)</li>
-                    <li> Душ/Баня</li>
+        <h1 class="headline">Особенности</h1>
+        <div class="parttwo__block">
+            <h3 class="name">Уникальность</h3>
+            <div class="parttwo__text">
+              <p>Мы делаем все для вашего комфорта</p>
+              <ul>
+                <li>Питание включено</li>
+                <li>Багаж(5кг)</li>
+                <li> Душ/Баня</li>
                 </ul>
-        </div>
-        <div class="parttwo__mini-block">
-            <div class="parttwo__mini-block__pic2">
+            </div>
 
-            </div>
-            <h2 class="parttwo__h2__text">Приемиум-Класс</h2>
-            <p class="parttwo__p__text"> Наш зал оборудован тренажорами А-класса</p>
-            <ul>
-                <li>Качество</li>
-                <li>Продуктивность</li>
-                <li>Результат</li>
-            </ul>
         </div>
-        <div class="parttwo__mini-block">
-            <div class="parttwo__mini-block__pic3">
+        <div class="parttwo__block">
+            <h3 class="name">Приемиум-Класс</h3>
+            <div class="parttwo__text">
+                <p >Наш зал оборудован тренажорами А-класса</p>
+                <ul >
+                    <li>Качество</li>
+                    <li>Продуктивность</li>
+                    <li>Результат</li>
+                </ul>
             </div>
-            <h2 class="parttwo__h2__text">Личный тренер </h2>
-            <p class="parttwo__p__text">Тренер сделает все для вашего результата</p>
-            <ul>
-                <li>Программа</li>
-                <li>Питание</li>
-                <li>План тренировок</li>
-            </ul>
+
+        </div>
+        <div class="parttwo__block">
+            <h3 class="name">Личный тренер</h3>
+            <div class="parttwo__text">
+                <p>Тренер сделает все для вашего результата</p>
+                <ul >
+                    <li>Программа</li>
+                    <li>Питание</li>
+                    <li>План-тренировок </li>
+                </ul>
+            </div>
         </div>
     </section>
+    <aside class="sidebar">
+        <h4>Топ новостей за сентябрь</h4>
+        <div class="sidebar__pic">
+            <img src="./img/Slicem.png" alt="изображение" >
+            <img src="./img/Slicef.png" alt="изображение">
+            <img src="./img/Slice.png" alt="изображение">
+        </div>
+    </aside>
     <section class="partthree">
-        <h2 class="partthree__h2__text">Последние новости</h2>
-        <aside>
-            <h3 class="aside__text">Топ новостей за сентябрь</h3>
-            <img class="aside__img" src="./img/Slice_13.png" alt="man">
-            <img class="aside__img" src="./img/Slice_14.png" alt="food">
-            <img class="aside__img" src="./img/Slice_15.png" alt="sport">
-
-        </aside>
+        <h2>Последние новости</h2>
         <div class="partthree__container">
-            <div class="partthree__avatar">
-                <img src="./img/news1.png" alt="">
+            <div class="avatar">
+                <img src="./img/news.png" alt="аватар">
             </div>
-            <div class="partthree__desc">
-                <div class="partthree__desc__date">12.10.2016</div>
-                <h3 class="partthree__desc__name">Похудение с помощью бодибилдинга!</h3>
-                <p class="partthree__desc__text">Вдыхание одного литра кислорода эквивалентно "сжиганию" 5 калорий,однако в минуту при самом высоком темпе движений атлет способен вдохнуть не более 3-4 литров кислорода. Это крайне важно для каждого начинающего атлета.</p>
-            </div>
+            <div class="date">12.10.2016</div>
+            <h3>Похудение с помощью бодибилдинга!</h3>
+            <p>Вдыхание одного литра кислорода эквивалентно "сжиганию" 5 калорий,однако в минуту при самом высоком темпе движений атлет способен вдохнуть не более 3-4 литров кислорода. Это крайне важно для каждого начинающего атлета.</p>
         </div>
         <div class="partthree__container">
-            <div class="partthree__avatar">
-                <img src="./img/news2.png" alt="">
+            <div class="avatar">
+                <img src="./img/newsа.png" alt="аватар">
             </div>
-            <div class="partthree__desc">
-                <div class="partthree__desc__date">01.02.2016</div>
-                <h3 class="partthree__desc__name">Заряжай друзей,получай призы!</h3>
-                <p class="partthree__desc__text"> Дополнительно для Вас: пользование сауной и предоставление средств личной гигиены, пользование баром, таблица замеров, дружеская атмосфера и постоянная поддержка. Мы запотимся о вашем комфорте и предлагаем испытать это уже сегодня!
-                </p>
-
-            </div>
-
+            <div class="date">01.02.2016</div>
+            <h3>Заряжай друзей,получай призы!</h3>
+            <p>Дополнительно для Вас: пользование сауной и предоставление средств личной гигиены, пользование баром, таблица замеров, дружеская атмосфера и постоянная поддержка. Мы запотимся о вашем комфорте и предлагаем испытать это уже сегодня!</p>
         </div>
         <div class="partthree__container">
-            <div class="partthree__avatar">
-                <img src="./img/news3.png" alt="">
+            <div class="avatar">
+                <img src="./img/newst.png" alt="аватар">
             </div>
-            <div class="partthree__desc">
-                <div class="partthree__desc__date">22.12.2015</div>
-                <h3 class="partthree__desc__name">Фрилансер?выпрями спину!</h3>
-                <p class="partthree__desc__text">Создайте рабочее место под себя. Вот этот инструмент поможет определить, что подходит именно вам и вашему организму. Используйте специальную подставку для ноутбука, если вы проводите за ним больше 2 часов. Настройте высоту и яркость монитора!
-                </p>
-
-            </div>
-
+            <div class="date">22.12.2015</div>
+            <h3>Фрилансер?выпрями спину!</h3>
+            <p>Создайте рабочее место под себя. Вот этот инструмент поможет определить, что подходит именно вам и вашему организму. Используйте специальную подставку для ноутбука, если вы проводите за ним больше 2 часов. Настройте высоту и яркость монитора!</p>
         </div>
-
     </section>
-    <div class="page__pagination">
-
-        <!--<div class="page__pagination__display">Страница 1 из 7</div>-->
-
-        <div class="route__pagination-elem">
-            <ul class="page__pagination-pages">
-                <li class="page__pagination-item">
-                    <p>Страница 1 из 7</p>
-                <li class="page__pagination-item">
-                    <a href="#" class="page__pagination-prev-next">&lt;</a>
-                <li class="page__pagination-item">
-                    <a href="" class="page__pagination__link">1</a>
-                <li class="page__pagination-item">
-                    <a href="" class="page__pagination__link">2</a>
-                <li class="page__pagination-item">
-                    <a href="" class="page__pagination__link">3</a>
-                <li class="page__pagination-item">
-                    <a href="" class="page__paginatoion__link">4</a>
-                <li class="page__pagination-item">
-                    <a href="" class="page__pagination__link">5</a>
-                <li class="page__pagination-item">
-                    <a href="" class="page__pagination__link">6</a>
-                <li class="page__pagination-item">
-                    <a href="" class="page__pagination__link">7</a>
-                    <a href="#" class="page__pagination-prev-next"> > </a>
-            </ul>
-        </div>
+    <div class="pagination">
+        <p>Страница 1 из 7</p>
+        <ul>
+            <li><a href="#" class="prev"><</a></li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">6</a></li>
+            <li><a href="#">7</a></li>
+            <li><a href="#" class="next">></a></li>
+        </ul>
     </div>
 </div>
-<footer>
-    <div class="container">
-        <div class="footer__block">
-            <p>Сделано с любовью и старанием на курсе «HTML + CSS» в LoftSchool
-                <br> Автор работы:</br></p>
-        </div>
+    <footer class= "end">
+        <p class="end__text">Сделано с любовью и старанием на курсе «HTML + CSS» в LoftSchool
+            Автор работы:</p>
+        <div class="end__logo">Афродита</div>
+        <h4 class="end__social">Наши социальные сети</h4>
+        <ul >
+            <li>
+                <img src="./img/vk.png" alt="вконтакте">
+            </li>
+            <li>
+                <img src="./img/fb.png" alt="фейсбук">
+            </li>
+            <li>
+                <img src="./img/g+.png" alt="гугл">
+            </li>
+            <li>
+                <img src="./img/tw.png" alt="твитер">
+            </li>
+            <li>
+                <img src="./img/mail.png" alt="мейл">
+            </li>
+        </ul>
+    </footer>
 
-        <div class="footer__block">
-            <a class="logo__footer">Афродита</a>
-        </div>
-
-        <div class="footer__block">
-            <h3 class="socety__about">Наши социальные сети</h3>
-             <ul>
-                 <li>
-            <img src="./img/vk.png" alt="">
-                 </li>
-                 <li>
-            <img src="./img/fb.png" alt="">
-                 </li>
-                 <li>
-            <img src="./img/g+.png" alt="">
-                 </li>
-                 <li>
-            <img src="./img/tw.png" alt="">
-                 </li>
-                 <li>
-            <img src="./img/mail.png" alt="">
-                 </li>
-             </ul>
-        </div>
-    </div>
-</footer>
-</div>
 </body>
-</html>
